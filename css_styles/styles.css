@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image:url(../Fondo_top3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contenedor_header {
+    background-image:url(../Top.jpg) ;
+    padding: 20px 0;
+    text-align: center;
+    color: red;
+    width:50%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 95%;
+    background-size: cover;
+}
+
+section{
+    background-image:url(../Top.jpg) ;
+    padding: 20px 0;
+    text-align: center;
+    color: red;
+    width:50%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 95%;
+    background-size: cover;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #61dafb;
+    text-decoration: none;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+}
+
+
+section h2 {
+    border-bottom: 2px solid #61dafb;
+    padding-bottom: 5px;
+}
+
+/* Lista de música */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    background: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
