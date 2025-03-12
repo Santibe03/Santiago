@@ -4,86 +4,122 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-image:url(../Fondo_top3.jpg);
+    background-color: #61dafb;
     background-attachment: fixed;
     background-size: cover;
 }
 
-#contenedor_header {
-    background-image:url(../Top.jpg) ;
-    padding: 20px 0;
-    text-align: center;
-    color: red;
-    width:50%;
-    height: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    margin-bottom: 95%;
-    background-size: cover;
-}
-
-section{
-    background-image:url(../Top.jpg) ;
-    padding: 20px 0;
-    text-align: center;
-    color: red;
-    width:50%;
-    height: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    margin-bottom: 95%;
-    background-size: cover;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
+.contenedores{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #61dafb;
-    text-decoration: none;
-}
-
-/* Secciones */
-main {
-    padding: 20px;
-}
-
-
-section h2 {
-    border-bottom: 2px solid #61dafb;
-    padding-bottom: 5px;
-}
-
-/* Lista de música */
-ul {
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 5px;
-}
-
-/* Footer */
-footer {
-    background: #282c34;
-    color: #fff;
+#contenedor_header {
+    background-color: yellow ;
+    padding: 20px 0;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    color: red;
+    width:50%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
 }
-/* hola */
+
+.contenedor_secciones{
+    background-color: rgb(89, 0, 255) ;
+    padding: 50px 0;
+    text-align: center;
+    color: red;
+    width:25%;
+    height: 90%;
+    margin-left: 1rem;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 95%;
+    background-size: cover;
+}
+
+.contenedor_secciones2{
+    background-color: rgb(89, 0, 255) ;
+    padding: 50px 0;
+    text-align: center;
+    color: red;
+    width:25%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background-size: cover;
+}
+
+.secciones_seccion{    
+    background-color: yellow ;
+    padding: 20px 0;
+    text-align: center;
+    color: red;
+    width:35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+
+}
+
+#contenedor_seccion2{
+    width:55%;
+}
+
+#nav_seccion1{
+    background-color: chartreuse ;
+    padding: 10px 0;
+    text-align: center;
+    color: red;
+    width:92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+#aside_seccion1{
+    background-color: rgb(255, 0, 0) ;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+.section_header{
+    
+}
+
+nav{
+    background-color: chartreuse ;
+    padding: 20px 0;
+    text-align: center;
+    color: red;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
